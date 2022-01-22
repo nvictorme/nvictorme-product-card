@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders ProductCard withoout crashing 1`] = `
+<div
+  className="productCard undefined"
+>
+  <span
+    className="productDescription undefined"
+  >
+    Coffee Mug - Card
+  </span>
+</div>
+`;
+
+exports[`it renders ProductTitle without crashing 1`] = `
+<span
+  className="productDescription undefined"
+>
+  Coffee Mug - Card
+</span>
+`;

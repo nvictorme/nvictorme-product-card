@@ -1,8 +1,6 @@
 # nvictorme-product-card
 
-Este es un paquete de pruebas de despliegue en NPM
-
-### Victor Noguera
+This is a test on how to publish TS React Components as NPM packages
 
 ## Examples:
 
@@ -12,11 +10,10 @@ import {ProductCard, ProductImage, ProductTitle, ProductButtons} from "nvictorme
 
 ```
 <ProductCard
-        key={product.id}
         product={product}
         initialValues={{
           count: 6,
-          // maxCount: 10,
+          maxCount: 10,
         }}
       >
         {({ reset, count, isMaxCountReached, maxCount, increaseBy }) => (
